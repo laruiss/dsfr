@@ -2,5 +2,10 @@
   SCHEMES
 \* ------------------------------------ */
 
-@import './index';
+@import 'index';
 @import 'styles/module';
+
+@import '../core/schemes';
+@import '../accordions/styles/schemes';
+@import '../alerts/styles/schemes';
+@import '../buttons/styles/schemes';

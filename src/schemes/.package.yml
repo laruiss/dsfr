@@ -3,6 +3,7 @@ title: Combinaison de couleur
 description: Les color schemes permettent la définition de couleurs principales et du darkmode pour le Design System de l'Etat.
 styles:
   - core
+  - header
 scripts:
   - core
 example:

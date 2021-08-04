@@ -17,7 +17,7 @@ const copyStyles = (pck, removeOrphans) => {
   const dest = root(`public/src/${pck}/`);
 
   copyDirs(src, dest, ['styles', 'generated/styles'], ['scss'], removeOrphans);
-  copyFiles(src, dest, ['index.scss', 'main.scss'], false, removeOrphans);
+  copyFiles(src, dest, ['index.scss', 'main.scss', 'schemes.scss'], false, removeOrphans);
 };
 
 const copyScripts = (pck, removeOrphans) => {
